@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  
+}
+
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    position: relative;
+}
+
+
+.box{
+    width: 350px;
+    height: 400px;
+    background-color: white ;
+    border-radius: 19px 19px 18px 18px;
+    position: relative;
+}
+
+.pic-top{
+    position:absolute;
+    left: -200px;
+    top: -400px;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+   cursor: default;
+    
+}
+
+.pic-bottom{
+    position:absolute;
+    right: -1200px;
+    bottom: -600px;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+   cursor: default;
+}
+
+.cover{
+  background-image: url("img/bg-pattern-card.svg");
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  border-radius: 18px 18px 0px 0px;
+}
+
+.profile-background{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    left: 127px;
+    top:102px;
+}
+
+.profile-pic{
+    background-image: url("img/image-victor.jpg");
+    height: 97px;
+    width: 97px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 8px;
+}
+
+.name::after{
+    content: "26";
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+}
+
+.place{
+    font-size: 15px;
+    margin-top:0;
+    margin-bottom: 30px;
+    color: hsl(227, 10%, 46%);
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-top: solid 1px hsl(0, 0%, 89%);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.flex__h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+    margin-top:20px;
+    margin-bottom: 0px;
+}
+
+.flex__p{
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 10px;
+    color: hsl(227, 10%, 46%);
+    margin:5px;
+}
