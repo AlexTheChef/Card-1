@@ -24,6 +24,7 @@ body{
     margin:0;
     padding: 0;
     position: relative;
+
 }
 
 
@@ -37,23 +38,25 @@ body{
 
 .pic-top{
     position:absolute;
-    left: -200px;
-    top: -400px;
-    width: 100%;
+    left: -10%;
+    top: -45%;
+    width: auto;
     height: auto;
     pointer-events: none;
-   cursor: default;
-    
+    cursor: default;
+    max-height: 70vh;
 }
 
 .pic-bottom{
     position:absolute;
-    right: -1200px;
-    bottom: -600px;
-    width: 100%;
+    right: -10%;
+    bottom: -55%;
+    width: auto;
     height: auto;
     pointer-events: none;
-   cursor: default;
+    cursor: default;
+    z-index: -1;
+    max-width: 60vw;
 }
 
 .cover{
